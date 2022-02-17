@@ -1,0 +1,34 @@
+/*--- part css 
+-------------------- */
+.money{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+ .income-gap{
+   margin-right: 9px;
+} 
+
+/* notify section  */
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: none;
+}
+.notify-section{
+    width: 35%;
+    margin: 0 auto;
+}
+/* css responsive  */
+
+@media (max-width:800px){
+ .money{
+     grid-template-columns: 1fr;
+ }
+}
